@@ -1,6 +1,5 @@
 import os
 import tempfile
-import time
 import librosa
 import numpy as np
 import pandas as pd
@@ -9,7 +8,7 @@ import soundfile as sf
 import tensorflow as tf
 import streamlit as st
 from datetime import datetime
-from tensorflow.keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.utils import pad_sequences
 from streamlit_webrtc import webrtc_streamer, AudioProcessorBase, WebRtcMode, RTCConfiguration
 
 # -- CONFIG
