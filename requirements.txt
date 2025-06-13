@@ -1,0 +1,9 @@
+streamlit
+streamlit-webrtc
+av
+librosa
+numpy
+matplotlib
+pandas
+soundfile
+tensorflow
